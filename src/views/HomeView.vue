@@ -45,9 +45,11 @@
             <v-pagination
               v-model="page"
               :length="3"
+              color="black"
          ></v-pagination>
           </v-col>
         </v-row>
+        
         <v-dialog
         v-model="dialog"
         persistent
@@ -155,7 +157,7 @@
       return {
         test: 'Testna varijabla',
         articles: [],
-        page: 1,
+        page: 2,
         search: '',
         dialog: false,
         alert: false,

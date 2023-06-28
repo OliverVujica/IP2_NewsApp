@@ -24,10 +24,11 @@
         <v-row>
             <v-col
               v-for="article in articles" :key="article.id"
-                cols="3"
-                sm="3"
+                cols="12"
+                sm="6"
+                md="4"
             >
-              <v-card height="420">
+              <v-card>
                 <h3 id="naslov"> {{ article.headline.main }} </h3>
                 <v-card-text>
                   {{ article.snippet }}
