@@ -9,7 +9,7 @@
         <v-row>
           <v-col
             v-for="article in articles"
-            v-if="articles.indexOf(article) >= (page - 1) * 10 && articles.indexOf(article) < page * 10"
+            v-if="articles.indexOf(article) >= (page - 1) * 9 && articles.indexOf(article) < page * 9"
             :key="article.title"
             cols="12" sm="6" md="4"
           >
