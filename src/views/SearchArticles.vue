@@ -2,7 +2,7 @@
     <v-container>
       <r-row>
         <r-col>
-          <h2 style="text-align: center;">You can search articles by headline here</h2>
+          <h2 style="text-align: center; padding-top: 10px;">You can search articles by headline here</h2>
            <br>
         </r-col>
       </r-row>

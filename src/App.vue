@@ -1,6 +1,8 @@
 <template>
   <v-app id="inspire">
-
+  <v-app-bar
+    app
+    flat>
     <v-toolbar id="navigacija">
       <img class="mr-3" :src="require('../slike/logo5.png')" height="30"/>
       <img class="mr-3" :src="require('../slike/logo2.png')" height="30"/>
@@ -20,6 +22,7 @@
         </v-tab>
       </v-tabs>
     </v-toolbar>
+  </v-app-bar>
   
     <v-main>
       <router-view/>
@@ -84,9 +87,6 @@ export default {
 </script>
 
 <style>
-#navigacija {
-  margin-bottom: 30px;
-}
 #title {
   padding-right: 10px;
 }

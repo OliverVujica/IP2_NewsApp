@@ -2,7 +2,7 @@
   <div class="about">  
     <v-row style="text-align: center;">
       <v-col>
-        <h1>O projektu</h1>
+        <h1 style="padding-top: 20px;">O projektu</h1>
         <br> <br>
         <p>
           Projekt napravljen u sklopu kolegija "Informatički projekt 2" koristeći Vue.js, Vuetify i

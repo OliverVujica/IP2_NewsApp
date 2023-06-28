@@ -1,6 +1,6 @@
 <template>
     <div id="sve">
-      <h2 style="text-align: center;">Stories by Section</h2>
+      <h2 style="text-align: center; padding-top: 20px; ">Stories by Section</h2>
       <br>
       <v-autocomplete @input="fetchTopStories"
         v-model="selectedSection"
