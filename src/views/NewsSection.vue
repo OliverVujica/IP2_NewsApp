@@ -30,8 +30,9 @@
         @input="paginate"
         :prev-icon="prevIcon"
         :next-icon="nextIcon"
-        color="primary"
+        color="black"
       ></v-pagination>
+      <br>
     </div>
   </template>
   
