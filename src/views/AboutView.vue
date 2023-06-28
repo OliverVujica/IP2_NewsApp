@@ -16,7 +16,7 @@
         </p>
         <p>
           Izvorni kod se može pronaći na
-          <a href=""
+          <a href="https://github.com/OliverVujica/IP2_NewsApp" target="_blank"
             >GitHub</a
           >.
         </p>
