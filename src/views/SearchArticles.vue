@@ -33,7 +33,7 @@
                   {{ article.snippet }}
                 </v-card-text>
                 <v-card-subtitle>
-                  {{ article.pub_date }}, {{ article.byline.original }}
+                  {{ article.byline.original }}
                 </v-card-subtitle>
                 <v-card-actions>
                   <v-btn

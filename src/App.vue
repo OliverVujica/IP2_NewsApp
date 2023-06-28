@@ -37,10 +37,6 @@
         <v-btn @click="toTwitter()">
           <v-icon>mdi-twitter</v-icon>
         </v-btn>
-
-        <v-btn @click="toYouTube()">
-          <v-icon>mdi-youtube</v-icon>
-        </v-btn>
      </v-bottom-navigation>
 
       <v-btn
@@ -79,9 +75,6 @@ export default {
       },
        toTwitter: function(){
         window.open('https://twitter.com/nytimes')
-      },
-       toYouTube: function(){
-        window.open('https://www.youtube.com/@nytimes')
       },
       returnToTop: function(){
         window.scrollTo(0, 0);
